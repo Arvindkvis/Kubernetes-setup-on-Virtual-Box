@@ -18,11 +18,11 @@ Following are the successful output of script execution under different nodes,
 
 2. VM: Master-2
 
-    ![Master-2-Cert-Verification](./images/master-2-cert.png)
+    ![Master-2-Cert-Verification](/images/master-2-cert.png)
 
 3. VM: Worker-1
 
-    ![Worker-1-Cert-Verification](./images/worker-1-cert.png)
+    ![Worker-1-Cert-Verification](/images/worker-1-cert.png)
 
 Any misconfiguration in certificates will be reported in red.
 
