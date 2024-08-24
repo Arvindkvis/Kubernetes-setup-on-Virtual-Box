@@ -14,7 +14,7 @@ Following are the successful output of script execution under different nodes,
 
 1. VM: Master-1
 
-    ![Master-1-Cert-Verification](./images/master-1-cert.png)
+    ![Master-1-Cert-Verification](/images/master-1-cert.png)
 
 2. VM: Master-2
 
