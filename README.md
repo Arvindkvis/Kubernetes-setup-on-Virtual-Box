@@ -50,22 +50,6 @@ We will be building the following:
 
 ## Labs
 
-This tutorial requires four (5) ARM64 based virtual or physical machines connected to the same network. While ARM64 based machines are used for the tutorial, the lessons learned can be applied to other platforms.
-
-* [Prerequisites](docs/01-prerequisites.md)
-* [Setting up the Jumpbox](docs/02-jumpbox.md)
-* [Provisioning Compute Resources](docs/03-compute-resources.md)
-* [Provisioning the CA and Generating TLS Certificates](docs/04-certificate-authority.md)
-* [Generating Kubernetes Configuration Files for Authentication](docs/05-kubernetes-configuration-files.md)
-* [Generating the Data Encryption Config and Key](docs/06-data-encryption-keys.md)
-* [Bootstrapping the etcd Cluster](docs/07-bootstrapping-etcd.md)
-* [Bootstrapping the Kubernetes Control Plane](docs/08-bootstrapping-kubernetes-controllers.md)
-* [Bootstrapping the Kubernetes Worker Nodes](docs/09-bootstrapping-kubernetes-workers.md)
-* [Configuring kubectl for Remote Access](docs/10-configuring-kubectl.md)
-* [Provisioning Pod Network Routes](docs/11-pod-network-routes.md)
-* [Smoke Test](docs/12-smoke-test.md)
-* [Cleaning Up](docs/13-cleanup.md)
-
 * [Prerequisites](docs/01-prerequisites.md)
 * [Provisioning Compute Resources](docs/02-compute-resources.md)
 * [Installing the Client Tools](docs/03-client-tools.md)
