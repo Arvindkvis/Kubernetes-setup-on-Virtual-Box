@@ -10,5 +10,20 @@ It is important that the script execution needs to be done by following commands
 cd ~
 bash cert_verify.sh
 ```
+Following are the successful output of script execution under different nodes,
+
+1. VM: Master-1
+
+    ![Master-1-Cert-Verification](./images/master-1-cert.png)
+
+2. VM: Master-2
+
+    ![Master-2-Cert-Verification](./images/master-2-cert.png)
+
+3. VM: Worker-1
+
+    ![Worker-1-Cert-Verification](./images/worker-1-cert.png)
+
+Any misconfiguration in certificates will be reported in red.
 
 All successful validations are in green text, errors in red.
