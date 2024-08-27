@@ -24,13 +24,13 @@ This does the below:
 
 - Set's IP addresses in the range 192.168.5
 
-    | VM            |  VM Name               | Purpose       | IP           | Forwarded Port   |
-    | ------------  | ---------------------- |:-------------:| ------------:| ----------------:|
-    | master-1      | kubernetes-ha-master-1 | Master        | 192.168.5.11 |     2711         |
-    | master-2      | kubernetes-ha-master-2 | Master        | 192.168.5.12 |     2712         |
-    | worker-1      | kubernetes-ha-worker-1 | Worker        | 192.168.5.21 |     2721         |
-    | worker-2      | kubernetes-ha-worker-2 | Worker        | 192.168.5.22 |     2722         |
-    | loadbalancer  | kubernetes-ha-lb       | LoadBalancer  | 192.168.5.30 |     2730         |
+    |     Role      |        VM Name         | Purpose       |      IP      |    Second IP    | Forwarded Port |
+    | ------------  | ---------------------- |:-------------:| ------------:| ---------------:| --------------:|
+    | Master Node01 | kubernetes-ha-master-1 | Master        | 192.168.5.11 |  192.168.56.11  |      2711      |
+    | Master Node01 | kubernetes-ha-master-2 | Master        | 192.168.5.12 |  192.168.56.12  |      2712      |
+    | Worker Node01 | kubernetes-ha-worker-1 | Worker        | 192.168.5.21 |  192.168.56.21  |      2721      |
+    | Worker Node01 | kubernetes-ha-worker-2 | Worker        | 192.168.5.22 |  192.168.56.22  |      2722      |
+    | Loadbalancer  | kubernetes-ha-lb       | LoadBalancer  | 192.168.5.30 |  192.168.56.30  |      2730      |
 
     > These are the default settings. These can be changed in the Vagrant file
 
